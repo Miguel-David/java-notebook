@@ -32,7 +32,7 @@ RUN rm ijava-kernel.zip
 
 # Add README.md
 ADD "README.md" $HOME
-ADD "cuadernos" $HOME
+ADD "cuadernos/" $HOME/cuadernos
 
 # Set user back to priviledged user.
 USER $NB_USER
