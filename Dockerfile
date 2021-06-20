@@ -32,7 +32,7 @@ RUN rm ijava-kernel.zip
 
 # Add README.md
 ADD "README.md" $HOME
-ADD "dentro.ipynb" $HOME
+ADD "cuadernos" $HOME
 
 # Set user back to priviledged user.
 USER $NB_USER
